@@ -1,0 +1,11 @@
+CREATE TABLE planets (
+  id bigserial,
+  name varchar(25),
+  diameter_in_miles numeric,
+  orbit_in_earth_days numeric,
+  day_in_earth_days numeric,
+  number_of_moons numeric
+  );
+  
+  
+  
